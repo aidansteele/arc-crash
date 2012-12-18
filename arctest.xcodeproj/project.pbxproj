@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD304BA41681286400B56AB8 /* Crasher.m in Sources */ = {isa = PBXBuildFile; fileRef = DD304BA31681286400B56AB8 /* Crasher.m */; };
+		DD5906F11680266400E37E35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5906F01680266400E37E35 /* UIKit.framework */; };
+		DD5906F31680266400E37E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5906F21680266400E37E35 /* Foundation.framework */; };
+		DD5906F51680266400E37E35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5906F41680266400E37E35 /* CoreGraphics.framework */; };
+		DD5906FD1680266400E37E35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5906FC1680266400E37E35 /* main.m */; };
+		DD5907011680266400E37E35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5907001680266400E37E35 /* AppDelegate.m */; };
+		DD5907031680266400E37E35 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5907021680266400E37E35 /* Default.png */; };
+		DD5907051680266400E37E35 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5907041680266400E37E35 /* Default@2x.png */; };
+		DD5907071680266400E37E35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD5907061680266400E37E35 /* Default-568h@2x.png */; };
+		DD59071816803C2000E37E35 /* Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD59071516803C2000E37E35 /* Shared.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD304BA21681286400B56AB8 /* Crasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crasher.h; sourceTree = "<group>"; };
+		DD304BA31681286400B56AB8 /* Crasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crasher.m; sourceTree = "<group>"; };
+		DD5906EC1680266400E37E35 /* arctest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arctest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5906F01680266400E37E35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD5906F21680266400E37E35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD5906F41680266400E37E35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD5906F81680266400E37E35 /* arctest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arctest-Info.plist"; sourceTree = "<group>"; };
+		DD5906FC1680266400E37E35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5906FF1680266400E37E35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5907001680266400E37E35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5907021680266400E37E35 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD5907041680266400E37E35 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD5907061680266400E37E35 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD59071516803C2000E37E35 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5906E91680266400E37E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5906F11680266400E37E35 /* UIKit.framework in Frameworks */,
+				DD5906F31680266400E37E35 /* Foundation.framework in Frameworks */,
+				DD5906F51680266400E37E35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5906E11680266400E37E35 = {
+			isa = PBXGroup;
+			children = (
+				DD5906F61680266400E37E35 /* arctest */,
+				DD5906EF1680266400E37E35 /* Frameworks */,
+				DD5906ED1680266400E37E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5906ED1680266400E37E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5906EC1680266400E37E35 /* arctest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5906EF1680266400E37E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5906F01680266400E37E35 /* UIKit.framework */,
+				DD5906F21680266400E37E35 /* Foundation.framework */,
+				DD5906F41680266400E37E35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5906F61680266400E37E35 /* arctest */ = {
+			isa = PBXGroup;
+			children = (
+				DD59071516803C2000E37E35 /* Shared.xcconfig */,
+				DD5906FF1680266400E37E35 /* AppDelegate.h */,
+				DD5907001680266400E37E35 /* AppDelegate.m */,
+				DD304BA21681286400B56AB8 /* Crasher.h */,
+				DD304BA31681286400B56AB8 /* Crasher.m */,
+				DD5906F71680266400E37E35 /* Supporting Files */,
+			);
+			path = arctest;
+			sourceTree = "<group>";
+		};
+		DD5906F71680266400E37E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5906F81680266400E37E35 /* arctest-Info.plist */,
+				DD5906FC1680266400E37E35 /* main.m */,
+				DD5907021680266400E37E35 /* Default.png */,
+				DD5907041680266400E37E35 /* Default@2x.png */,
+				DD5907061680266400E37E35 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5906EB1680266400E37E35 /* arctest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59070A1680266400E37E35 /* Build configuration list for PBXNativeTarget "arctest" */;
+			buildPhases = (
+				DD5906E81680266400E37E35 /* Sources */,
+				DD5906E91680266400E37E35 /* Frameworks */,
+				DD5906EA1680266400E37E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arctest;
+			productName = arctest;
+			productReference = DD5906EC1680266400E37E35 /* arctest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5906E31680266400E37E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = DD5906E61680266400E37E35 /* Build configuration list for PBXProject "arctest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD5906E11680266400E37E35;
+			productRefGroup = DD5906ED1680266400E37E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5906EB1680266400E37E35 /* arctest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5906EA1680266400E37E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5907031680266400E37E35 /* Default.png in Resources */,
+				DD5907051680266400E37E35 /* Default@2x.png in Resources */,
+				DD5907071680266400E37E35 /* Default-568h@2x.png in Resources */,
+				DD59071816803C2000E37E35 /* Shared.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5906E81680266400E37E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5906FD1680266400E37E35 /* main.m in Sources */,
+				DD5907011680266400E37E35 /* AppDelegate.m in Sources */,
+				DD304BA41681286400B56AB8 /* Crasher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD5907081680266400E37E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD59071516803C2000E37E35 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DD5907091680266400E37E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD59071516803C2000E37E35 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		DD59070B1680266400E37E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		DD59070C1680266400E37E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5906E61680266400E37E35 /* Build configuration list for PBXProject "arctest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5907081680266400E37E35 /* Debug */,
+				DD5907091680266400E37E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59070A1680266400E37E35 /* Build configuration list for PBXNativeTarget "arctest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59070B1680266400E37E35 /* Debug */,
+				DD59070C1680266400E37E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5906E31680266400E37E35 /* Project object */;
+}

@@ -1,0 +1,5 @@
+CLANG_ENABLE_OBJC_ARC = YES
+ARCHS = $(ARCHS_STANDARD_32_BIT)
+SDKROOT = iphoneos
+PRODUCT_NAME = arctest
+INFOPLIST_FILE = arctest/arctest-Info.plist
